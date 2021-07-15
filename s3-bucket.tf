@@ -5,5 +5,4 @@ module "s3_bucket" {
   acceleration_status = "${var.s3_bucket_acceleration_status}"
   acl = "private"
   bucket = "afisher-chip-bucket"
-  versioning = "true"
 }
