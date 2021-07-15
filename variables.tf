@@ -48,3 +48,8 @@ variable "placeholder" {
   default     = "placekitten.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
+
+variable "s3_bucket_acceleration_status" {}
+variable "s3_bucket_bucket_prefix" {}
+variable "s3_bucket_policy" {}
+variable "s3_bucket_request_payer" {}
